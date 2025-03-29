@@ -1,0 +1,515 @@
+Mono path[0] = 'C:/Users/%USER%/Downloads/Insignia Demo v1.5.4/Insignia Demo v1.5.4/Insignia_Data/Managed'
+Mono config path = 'C:/Users/%USER%/Downloads/Insignia Demo v1.5.4/Insignia Demo v1.5.4/MonoBleedingEdge/etc'
+Initialize engine version: 2019.1.0f2 (292b93d75a2c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Vendor:   
+    VRAM:     11027 MB
+    Driver:   31.0.15.5161
+Begin MonoManager ReloadAssembly
+- Completed reload, in 42.067 seconds
+WARNING: Shader Unsupported: 'Hidden/Lightweight Render Pipeline/ScreenSpaceShadows' - All passes removed
+ERROR: Shader Shader is not supported on this GPU (none of subshaders/fallbacks are suitable)WARNING: Shader Unsupported: 'Hidden/Lightweight Render Pipeline/ScreenSpaceShadows' - Setting to default shader.
+<RI> Initializing input.
+
+New input system (experimental) initialized
+<RI> Input initialized.
+
+<RI> Initialized touch support.
+
+UnloadTime: 0.460100 ms
+Searching for compatible XInput library...
+Found Xinput1_4.dll.
+d3d11: swapchain SetFullscreenState failed (887a0022).
+ 
+(Filename: C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/D3D11Swapchain.cpp Line: 423)
+
+Failed to change display to ExclusiveFullscreen...reverting to FullscreenWindow
+ 
+(Filename: C:\buildslave\unity\build\PlatformDependent/WinPlayer/ScreenManagerWin.cpp Line: 504)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.512600 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2240.
+Total: 19.565600 ms (FindLiveObjects: 0.419500 ms CreateObjectMapping: 0.113000 ms MarkObjects: 19.002100 ms  DeleteObjects: 0.030100 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.803600 ms
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2185.
+Total: 30.172700 ms (FindLiveObjects: 0.531900 ms CreateObjectMapping: 0.141900 ms MarkObjects: 29.309500 ms  DeleteObjects: 0.188700 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.512500 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 18.150900 ms (FindLiveObjects: 0.306000 ms CreateObjectMapping: 0.079900 ms MarkObjects: 17.726800 ms  DeleteObjects: 0.037200 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.145800 ms
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 2419.
+Total: 24.492400 ms (FindLiveObjects: 0.476300 ms CreateObjectMapping: 0.120500 ms MarkObjects: 23.721600 ms  DeleteObjects: 0.173300 ms)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.844500 ms
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 8598.
+Total: 18.081100 ms (FindLiveObjects: 0.599300 ms CreateObjectMapping: 0.233100 ms MarkObjects: 17.160700 ms  DeleteObjects: 0.087400 ms)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at ButtonPrompt.CheckInput () [0x00045] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+  at (wrapper delegate-invoke) <Module>.invoke_void()
+  at KeyboardWizard.OnDisable () [0x00008] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+UnityEngine.GameObject:SetActive(Boolean)
+MenuController:CloseMenu(Boolean)
+MenuController:CloseMenu()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+UIFocus:PressButton(InputButton)
+GameSystem:MenuUpdate()
+GameSystem:Update()
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at ButtonPrompt.CheckInput () [0x00045] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+  at ButtonPrompt.OnEnable () [0x0000e] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+UnityEngine.GameObject:SetActive(Boolean)
+MenuController:OpenMenu(Boolean)
+MenuController:OpenMenu()
+WorkTableTrigger:OpenMenu()
+UnityEngine.Component:SendMessageUpwards(String, Object, SendMessageOptions)
+UnityEngine.Component:SendMessageUpwards(String, SendMessageOptions)
+SequencePlayer:UpdateMessage()
+SequencePlayer:LateUpdate()
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at ButtonPrompt.CheckInput () [0x00045] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+  at ButtonPrompt.OnEnable () [0x0000e] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+UnityEngine.GameObject:SetActive(Boolean)
+MenuController:OpenMenu(Boolean)
+MenuController:OpenMenu()
+WorkTableTrigger:OpenMenu()
+UnityEngine.Component:SendMessageUpwards(String, Object, SendMessageOptions)
+UnityEngine.Component:SendMessageUpwards(String, SendMessageOptions)
+SequencePlayer:UpdateMessage()
+SequencePlayer:LateUpdate()
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 16.815300 ms
+
+Unloading 693 unused Assets to reduce memory usage. Loaded Objects now: 3893.
+Total: 37.036000 ms (FindLiveObjects: 0.588600 ms CreateObjectMapping: 0.231900 ms MarkObjects: 34.386900 ms  DeleteObjects: 1.827800 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.882700 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 3891.
+Total: 27.989200 ms (FindLiveObjects: 0.527300 ms CreateObjectMapping: 0.237800 ms MarkObjects: 27.198900 ms  DeleteObjects: 0.024000 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.856000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 3867.
+Total: 40.894200 ms (FindLiveObjects: 0.867600 ms CreateObjectMapping: 0.256300 ms MarkObjects: 39.729200 ms  DeleteObjects: 0.039900 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.814200 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 4002.
+Total: 25.338000 ms (FindLiveObjects: 0.357600 ms CreateObjectMapping: 0.147900 ms MarkObjects: 24.793800 ms  DeleteObjects: 0.038100 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.534800 ms
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 4081.
+Total: 23.967600 ms (FindLiveObjects: 0.541800 ms CreateObjectMapping: 0.248900 ms MarkObjects: 23.044400 ms  DeleteObjects: 0.131600 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.497300 ms
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 8284.
+Total: 28.537700 ms (FindLiveObjects: 0.600300 ms CreateObjectMapping: 0.239900 ms MarkObjects: 27.595500 ms  DeleteObjects: 0.101200 ms)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at KeyboardMapKeys.Start () [0x0008a] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 23.510800 ms
+
+Unloading 392 unused Assets to reduce memory usage. Loaded Objects now: 3886.
+Total: 19.005900 ms (FindLiveObjects: 0.542300 ms CreateObjectMapping: 0.244700 ms MarkObjects: 17.524400 ms  DeleteObjects: 0.693800 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.632000 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 8650.
+Total: 26.606600 ms (FindLiveObjects: 0.446800 ms CreateObjectMapping: 0.191100 ms MarkObjects: 25.922400 ms  DeleteObjects: 0.045900 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.752500 ms
+
+Unloading 534 unused Assets to reduce memory usage. Loaded Objects now: 26914.
+Total: 31.677700 ms (FindLiveObjects: 2.467400 ms CreateObjectMapping: 0.470900 ms MarkObjects: 27.858300 ms  DeleteObjects: 0.880200 ms)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.076500 ms
+
+Unloading 157 unused Assets to reduce memory usage. Loaded Objects now: 27066.
+Total: 29.627500 ms (FindLiveObjects: 1.307300 ms CreateObjectMapping: 0.292500 ms MarkObjects: 27.812900 ms  DeleteObjects: 0.214400 ms)
+
+Material doesn't have a texture property '_MainTex'
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Shaders/Material.cpp Line: 1346)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 13.067700 ms
+
+Unloading 673 unused Assets to reduce memory usage. Loaded Objects now: 3939.
+Total: 34.725500 ms (FindLiveObjects: 1.172100 ms CreateObjectMapping: 0.291200 ms MarkObjects: 31.377000 ms  DeleteObjects: 1.884300 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.050600 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 3937.
+Total: 40.129600 ms (FindLiveObjects: 0.605500 ms CreateObjectMapping: 0.247100 ms MarkObjects: 39.252300 ms  DeleteObjects: 0.023800 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.006800 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 3913.
+Total: 45.702900 ms (FindLiveObjects: 0.602100 ms CreateObjectMapping: 0.255000 ms MarkObjects: 44.816900 ms  DeleteObjects: 0.028000 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.588900 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 4048.
+Total: 21.247000 ms (FindLiveObjects: 0.428200 ms CreateObjectMapping: 0.144100 ms MarkObjects: 20.635700 ms  DeleteObjects: 0.038500 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.588200 ms
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 4127.
+Total: 24.628900 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.162400 ms MarkObjects: 24.003400 ms  DeleteObjects: 0.121100 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.401500 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 4130.
+Total: 45.372700 ms (FindLiveObjects: 0.489900 ms CreateObjectMapping: 0.242000 ms MarkObjects: 44.611700 ms  DeleteObjects: 0.028600 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.752900 ms
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 8333.
+Total: 25.461200 ms (FindLiveObjects: 0.470300 ms CreateObjectMapping: 0.186800 ms MarkObjects: 24.703800 ms  DeleteObjects: 0.099700 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 14.341000 ms
+
+Unloading 379 unused Assets to reduce memory usage. Loaded Objects now: 3935.
+Total: 31.975600 ms (FindLiveObjects: 0.327600 ms CreateObjectMapping: 0.156600 ms MarkObjects: 30.893000 ms  DeleteObjects: 0.598000 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.723100 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 8699.
+Total: 65.854600 ms (FindLiveObjects: 0.666600 ms CreateObjectMapping: 0.233500 ms MarkObjects: 64.843100 ms  DeleteObjects: 0.110700 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 18.925800 ms
+
+Unloading 797 unused Assets to reduce memory usage. Loaded Objects now: 3981.
+Total: 32.188200 ms (FindLiveObjects: 0.590200 ms CreateObjectMapping: 0.293300 ms MarkObjects: 29.386100 ms  DeleteObjects: 1.917700 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.094200 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 3979.
+Total: 36.214300 ms (FindLiveObjects: 0.664900 ms CreateObjectMapping: 0.282900 ms MarkObjects: 35.244200 ms  DeleteObjects: 0.021900 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.064200 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 3955.
+Total: 29.492100 ms (FindLiveObjects: 0.486900 ms CreateObjectMapping: 0.229900 ms MarkObjects: 28.754100 ms  DeleteObjects: 0.020500 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.752000 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 4090.
+Total: 34.943900 ms (FindLiveObjects: 0.574600 ms CreateObjectMapping: 0.247100 ms MarkObjects: 34.072200 ms  DeleteObjects: 0.049200 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.887400 ms
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 4169.
+Total: 33.486600 ms (FindLiveObjects: 0.538800 ms CreateObjectMapping: 0.243000 ms MarkObjects: 32.583500 ms  DeleteObjects: 0.120300 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.431500 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 4172.
+Total: 35.429400 ms (FindLiveObjects: 0.579000 ms CreateObjectMapping: 0.258600 ms MarkObjects: 34.564100 ms  DeleteObjects: 0.026900 ms)
+
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.498700 ms
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 8375.
+Total: 34.334700 ms (FindLiveObjects: 0.579600 ms CreateObjectMapping: 0.224300 ms MarkObjects: 33.430300 ms  DeleteObjects: 0.099600 ms)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at KeyboardMapKeys.Update () [0x00032] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at KeyboardMapKeys.Update () [0x00032] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at KeyboardMapKeys.Update () [0x00032] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at KeyboardMapKeys.Update () [0x00032] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at KeyboardMapKeys.Update () [0x00032] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at KeyboardMapKeys.Update () [0x00032] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 19.096800 ms
+
+Unloading 392 unused Assets to reduce memory usage. Loaded Objects now: 3977.
+Total: 45.961300 ms (FindLiveObjects: 0.979700 ms CreateObjectMapping: 0.258000 ms MarkObjects: 43.304600 ms  DeleteObjects: 1.418000 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.716200 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 8741.
+Total: 39.157700 ms (FindLiveObjects: 0.889000 ms CreateObjectMapping: 0.394000 ms MarkObjects: 37.817100 ms  DeleteObjects: 0.056800 ms)
+
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.663400 ms
+
+Unloading 507 unused Assets to reduce memory usage. Loaded Objects now: 27005.
+Total: 44.042100 ms (FindLiveObjects: 1.479600 ms CreateObjectMapping: 0.273300 ms MarkObjects: 41.520000 ms  DeleteObjects: 0.768700 ms)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.686200 ms
+
+Unloading 153 unused Assets to reduce memory usage. Loaded Objects now: 27134.
+Total: 42.408700 ms (FindLiveObjects: 1.173000 ms CreateObjectMapping: 0.266500 ms MarkObjects: 40.742800 ms  DeleteObjects: 0.226300 ms)
+
+Material doesn't have a texture property '_MainTex'
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Shaders/Material.cpp Line: 1346)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at ButtonPrompt.CheckInput () [0x00045] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+  at ButtonPrompt.OnEnable () [0x0000e] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+UnityEngine.GameObject:SetActive(Boolean)
+MenuController:OpenMenu(Boolean)
+MenuController:OpenMenu()
+WorkTableTrigger:OpenMenu()
+UnityEngine.Component:SendMessageUpwards(String, Object, SendMessageOptions)
+UnityEngine.Component:SendMessageUpwards(String, SendMessageOptions)
+SequencePlayer:UpdateMessage()
+SequencePlayer:LateUpdate()
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at ButtonPrompt.CheckInput () [0x00045] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+  at ButtonPrompt.Start () [0x00016] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at ButtonPrompt.CheckInput () [0x00045] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+  at ButtonPrompt.OnEnable () [0x0000e] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+UnityEngine.GameObject:SetActive(Boolean)
+MenuController:OpenMenu(Boolean)
+MenuController:OpenMenu()
+WorkTableTrigger:OpenMenu()
+UnityEngine.Component:SendMessageUpwards(String, Object, SendMessageOptions)
+UnityEngine.Component:SendMessageUpwards(String, SendMessageOptions)
+SequencePlayer:UpdateMessage()
+SequencePlayer:LateUpdate()
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 11.432500 ms
+
+Unloading 674 unused Assets to reduce memory usage. Loaded Objects now: 4030.
+Total: 29.978000 ms (FindLiveObjects: 0.695200 ms CreateObjectMapping: 0.211700 ms MarkObjects: 28.090300 ms  DeleteObjects: 0.980200 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.472200 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 4028.
+Total: 25.554400 ms (FindLiveObjects: 0.301000 ms CreateObjectMapping: 0.126700 ms MarkObjects: 25.108700 ms  DeleteObjects: 0.017500 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.815200 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 4004.
+Total: 35.056100 ms (FindLiveObjects: 0.302000 ms CreateObjectMapping: 0.123900 ms MarkObjects: 34.610000 ms  DeleteObjects: 0.019600 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.420100 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 4139.
+Total: 25.819200 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.210200 ms MarkObjects: 25.228000 ms  DeleteObjects: 0.039200 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.080400 ms
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 4218.
+Total: 32.337800 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.116400 ms MarkObjects: 31.785000 ms  DeleteObjects: 0.121900 ms)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.373400 ms
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 8805.
+Total: 30.599400 ms (FindLiveObjects: 0.489900 ms CreateObjectMapping: 0.171800 ms MarkObjects: 29.839500 ms  DeleteObjects: 0.097700 ms)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at ButtonPrompt.CheckInput () [0x00045] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+  at ButtonPrompt.OnEnable () [0x0000e] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+UnityEngine.GameObject:SetActive(Boolean)
+MenuController:OpenMenu(Boolean)
+MenuController:OpenMenu()
+WorkTableTrigger:OpenMenu()
+UnityEngine.Component:SendMessageUpwards(String, Object, SendMessageOptions)
+UnityEngine.Component:SendMessageUpwards(String, SendMessageOptions)
+SequencePlayer:UpdateMessage()
+SequencePlayer:LateUpdate()
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at ButtonPrompt.CheckInput () [0x00045] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+  at ButtonPrompt.Start () [0x00016] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 9.720200 ms
+
+Unloading 661 unused Assets to reduce memory usage. Loaded Objects now: 4057.
+Total: 51.533000 ms (FindLiveObjects: 0.668000 ms CreateObjectMapping: 0.178500 ms MarkObjects: 49.729900 ms  DeleteObjects: 0.956000 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.949600 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 4055.
+Total: 31.396000 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.145100 ms MarkObjects: 30.923000 ms  DeleteObjects: 0.018300 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.457000 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 4031.
+Total: 26.249300 ms (FindLiveObjects: 0.313700 ms CreateObjectMapping: 0.143300 ms MarkObjects: 25.775000 ms  DeleteObjects: 0.016900 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.402500 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 4166.
+Total: 40.364200 ms (FindLiveObjects: 0.308800 ms CreateObjectMapping: 0.122800 ms MarkObjects: 39.888400 ms  DeleteObjects: 0.043600 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.048900 ms
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 4245.
+Total: 48.443600 ms (FindLiveObjects: 0.745000 ms CreateObjectMapping: 0.217000 ms MarkObjects: 47.148400 ms  DeleteObjects: 0.332100 ms)
+
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.792800 ms
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 8832.
+Total: 32.615800 ms (FindLiveObjects: 0.509700 ms CreateObjectMapping: 0.190400 ms MarkObjects: 31.809300 ms  DeleteObjects: 0.105800 ms)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at ButtonPrompt.CheckInput () [0x00045] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+  at ButtonPrompt.OnEnable () [0x0000e] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+UnityEngine.GameObject:SetActive(Boolean)
+MenuController:OpenMenu(Boolean)
+MenuController:OpenMenu()
+WorkTableTrigger:OpenMenu()
+UnityEngine.Component:SendMessageUpwards(String, Object, SendMessageOptions)
+UnityEngine.Component:SendMessageUpwards(String, SendMessageOptions)
+SequencePlayer:UpdateMessage()
+SequencePlayer:LateUpdate()
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+KeyNotFoundException: The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <a6266edc72ee4a578659208aefcdd5e1>:0 
+  at ButtonPrompt.CheckInput () [0x00045] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+  at ButtonPrompt.Start () [0x00016] in <87e8de8b5bb447fdaa9be5901a140e1f>:0 
+ 
+(Filename: <a6266edc72ee4a578659208aefcdd5e1> Line: 0)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.842300 ms
+
+Unloading 661 unused Assets to reduce memory usage. Loaded Objects now: 4084.
+Total: 31.732200 ms (FindLiveObjects: 0.884100 ms CreateObjectMapping: 0.193200 ms MarkObjects: 29.633300 ms  DeleteObjects: 1.021000 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.625700 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 4082.
+Total: 52.944400 ms (FindLiveObjects: 0.346200 ms CreateObjectMapping: 0.140200 ms MarkObjects: 52.438700 ms  DeleteObjects: 0.018600 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.716700 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 4058.
+Total: 28.944200 ms (FindLiveObjects: 0.315000 ms CreateObjectMapping: 0.155500 ms MarkObjects: 28.448200 ms  DeleteObjects: 0.024900 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.539500 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 4193.
+Total: 31.846300 ms (FindLiveObjects: 0.351700 ms CreateObjectMapping: 0.158200 ms MarkObjects: 31.291500 ms  DeleteObjects: 0.043900 ms)
+
