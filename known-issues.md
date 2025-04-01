@@ -1,53 +1,3 @@
-# [BUG-001] ⚠️ Remapped Input Causing Major Frame Drops
-
-**Unique Key:** BUG-001  
-**Reported On:** 2025-03-27  
-**Reporter:** Tadjh Brooks  
-**Status:** Open  
-**Priority:** High  
-**Severity:** Minor  
-**Environment:**
-
-- **OS:** Windows 11
-- **Device:** Desktop
-- **Processor:** Intel(R) Core(TM) i9-9920X CPU @ 3.50GHz
-- **RAM:** 64.0 GB (63.7 GB usable)
-- **Application Version:** Insignia Demo v1.5.4
-
-## Description
-
-Input `Mouse1` (<kbd>Right Click</kbd>) appears to be hard coded to the `Screenshot` function. When remapping `Mouse1` to another function in **Menu > Settings > Controls > Keyboard**, using said function produces major frame drops causing the game to stutter. As a consequence `Mouse1` is not a valid input target for remapping since the `Screenshot` function is not present in **Keyboard** for additional input remapping.
-
-## Steps to Reproduce
-
-1. Open the application.
-2. Press the **Menu** button.
-3. From the menu, select **Settings**.
-4. In the Settings panel, select **Controls**.
-5. In the **Controls** panel, Select **Keyboard**.
-6. Remap the `Roll` function to `Mouse1`.
-7. Exit **Menu**.
-8. Trigger `Roll` in game.
-9. Observe that spamming `Mouse1` causes the frame rate to drop significantly while a each click causes a new screenshot to be saved to `./Insignia Demo v1.5.4/Insignia_data`.
-
-## Expected Behavior
-
-Expected only the remapped function to trigger.
-
-## Actual Behavior
-
-`Mouse1` appears to be hard coded to take screenshots so in addition to trigging the remapped input, a screenshot will also be created with each button press.
-
-## Screenshots / Videos
-
-![Screenshot of BUG-001](screenshots/BUG-001.png)
-
-## Additional Information
-
-- Avoid using `Mouse1` as a remapped function input for now.
-
----
-
 # [BUG-002] ℹ️ Incorrect Menu Title in Keyboard Settings
 
 **Unique Key:** BUG-002  
@@ -62,7 +12,7 @@ Expected only the remapped function to trigger.
 - **Device:** Desktop
 - **Processor:** Intel(R) Core(TM) i9-9920X CPU @ 3.50GHz
 - **RAM:** 64.0 GB (63.7 GB usable)
-- **Application Version:** Insignia Demo v1.5.4
+- **Application Version:** Insignia Alpha v0.0.692
 
 ## Description
 
@@ -89,143 +39,9 @@ The title of the panel is **Audio** instead of **Keyboard**.
 
 ![Screenshot of BUG-002](screenshots/BUG-002.png)
 
----
-
-# [BUG-003] ℹ️ Unlimited Autosaves Triggered by Walter
-
-**Unique Key:** BUG-003  
-**Reported On:** 2025-03-27  
-**Reporter:** Tadjh Brooks  
-**Status:** Open  
-**Priority:** Low  
-**Severity:** Minor  
-**Environment:**
-
-- **OS:** Windows 11
-- **Device:** Desktop
-- **Processor:** Intel(R) Core(TM) i9-9920X CPU @ 3.50GHz
-- **RAM:** 64.0 GB (63.7 GB usable)
-- **Application Version:** Insignia Demo v1.5.4
-
-## Description
-
-Approaching Walter **always** triggers an autosave.
-
-## Steps to Reproduce
-
-1. Open the application.
-2. Approach Walter.
-3. Observe that an autosave is triggered.
-4. Repeat steps 2-3.
-5. Observe that an autosave is triggered each time.
-
-## Expected Behavior
-
-Autosaves should only be triggered at specific points in the game, not every time Walter is approached.
-
-## Actual Behavior
-
-Autosaves are triggered every time Walter is approached, leading to an excessive number of autosaves being created.
-
-## Screenshots / Videos
-
-[Video of BUG-003](videos/BUG-003.mp4)
-
----
-
-# [BUG-004] ℹ️ Incorrect Remapped Input in Forge
-
-**Unique Key:** BUG-004  
-**Reported On:** 2025-03-27  
-**Reporter:** Tadjh Brooks  
-**Status:** Open  
-**Priority:** Low  
-**Severity:** Minor  
-**Environment:**
-
-- **OS:** Windows 11
-- **Device:** Desktop
-- **Processor:** Intel(R) Core(TM) i9-9920X CPU @ 3.50GHz
-- **RAM:** 64.0 GB (63.7 GB usable)
-- **Application Version:** Insignia Demo v1.5.4
-
-## Description
-
-The **Forge** menu incorrectly states that the input for **Forge** is <kbd>S</kbd> instead of remapped key.
-
-## Steps to Reproduce
-
-1. Open the application.
-2. Press the **Menu** button.
-3. From the menu, select **Settings**.
-4. In the Settings panel, select **Controls**.
-5. In the **Controls** panel, Select **Keyboard**.
-6. Remap the **Attack** function to a different key (e.g., <kbd>Left Click</kbd>).
-7. Exit **Menu**.
-8. Go to an anvil and press `Up` to enter the **Forge** menu.
-9. Observe that the input for **Forge** is displayed as <kbd>S</kbd> instead of the remapped input.
-
-## Expected Behavior
-
-The input for the **Forge** function should display the remapped key <kbd>W</kbd>.
-
-## Actual Behavior
-
-The input for the **Forge** function is displayed as <kbd>S</kbd> instead of the remapped input.
-
-## Screenshots / Videos
-
-![Screenshot of BUG-004](screenshots/BUG-004.png)
-
----
-
-# [BUG-005] ℹ️ Incorrect Remapped Input for Attack Tutorial
-
-**Unique Key:** BUG-005  
-**Reported On:** 2025-03-27  
-**Reporter:** Tadjh Brooks  
-**Status:** Open  
-**Priority:** Low  
-**Severity:** Minor  
-**Environment:**
-
-- **OS:** Windows 11
-- **Device:** Desktop
-- **Processor:** Intel(R) Core(TM) i9-9920X CPU @ 3.50GHz
-- **RAM:** 64.0 GB (63.7 GB usable)
-- **Application Version:** Insignia Demo v1.5.4
-
-## Description
-
-The **Attack** tutorial incorrectly states that the input for **Attack** is <kbd>S</kbd> instead of the remapped key.
-
-## Steps to Reproduce
-
-1. Open the application.
-2. Press the **Menu** button.
-3. From the menu, select **Settings**.
-4. In the Settings panel, select **Controls**.
-5. In the **Controls** panel, Select **Keyboard**.
-6. Remap the **Attack** function to <kbd>Left Click</kbd>.
-7. Exit **Menu**.
-8. Go to Walter in the Wheat Field and trigger the **Attack** tutorial.
-9. Observe that the input for **Attack** is displayed as <kbd>S</kbd> instead of the remapped input.
-
-## Expected Behavior
-
-The input for the **Attack** function should display the remapped key <kbd>Left Click</kbd>.
-
-## Actual Behavior
-
-The input for the **Attack** function is displayed as <kbd>S</kbd> instead of the remapped input.
-
-## Screenshots / Videos
-
-![Screenshot of BUG-005](screenshots/BUG-005.png)
-
 ## Additional Information
 
-- The incorrect remapped input isn't even the proper default input: <kbd>X</kbd>. I believe pressing `Reset` and remapping a second time fixes this additional "incorrect default mapping bug" to instead incorrectly display <kbd>X</kbd> during this tutorial. This behavior was also observed in the Forge menu, sometimes displaying <kbd>S</kbd> to forge and other times displaying <kbd>X</kbd>. I'll link to the related bug once I track it down and reliably reproduce it.
+- First observed in Demo v1.5.4.
 
 ---
 
@@ -243,7 +59,7 @@ The input for the **Attack** function is displayed as <kbd>S</kbd> instead of th
 - **Device:** Desktop
 - **Processor:** Intel(R) Core(TM) i9-9920X CPU @ 3.50GHz
 - **RAM:** 64.0 GB (63.7 GB usable)
-- **Application Version:** Insignia Demo v1.5.4
+- **Application Version:** Insignia Alpha v0.0.692
 
 ## Description
 
@@ -256,12 +72,14 @@ The input names truncated in the **Menu > Settings > Controls > Keyboard** panel
 3. From the menu, select **Settings**.
 4. In the Settings panel, select **Controls**.
 5. In the **Controls** panel, Select **Keyboard**.
-6. Remap the `Roll` function to <kbd>⇧ Shift</kbd>.
-7. Remap the `Attack` function to <kbd>Left Click</kbd>.
-8. Remap the `Special` function to <kbd>⌃ Control</kbd>.
-9. Observe that the input name for `Roll` is displayed as `LeftS ` instead of `LeftShift`.
-10. Observe that the input name for `Attack` is displayed as `Mous ` instead of `Mouse0`.
-11. Observe that the input name for `Special` is displayed as `LeftC ` instead of `LeftControl`.
+6. Remap the `Roll` function to <kbd>Left Click</kbd>.
+7. Remap the `Attack` function to <kbd>Right Click</kbd>.
+8. Remap the `Special` function to <kbd>Alt</kbd>.
+9. Remape the `Abilities` function to <kbd>← Left Arrow</kbd>.
+10. Observe that the input name for `Roll` is displayed as `Mouse` instead of `Mouse0`.
+11. Observe that the input name for `Attack` is displayed as `Mouse1` **as intended**.
+12. Observe that the input name for `Special` is displayed as `LeftAl` instead of `LeftAlt`.
+13. Observe that the input name for `Abilities` is displayed as `LeftAr` instead of `LeftArrow`.
 
 ## Expected Behavior
 
@@ -273,14 +91,13 @@ The input names are truncated on the left side of the screen.
 
 ## Screenshots / Videos
 
-![Screenshot A of BUG-006](screenshots/BUG-006-A.png)
-
-![Screenshot B of BUG-006](screenshots/BUG-006-B.png)
+![Screenshot of BUG-006](screenshots/BUG-006.png)
 
 ## Additional Information
 
--- Remapped Inputs in the right column are not truncated.
--- `LeftAlt` and `LeftArrow` both display as `LeftA ` instead of `LeftAlt` and `LeftArrow` respectively.
+-- Remapped Inputs in the right column are not truncated.  
+-- Left Column inputs seems to have a max character limit of 6 characters.  
+-- This bug was first observed in Demo v1.5.4.
 
 ---
 
@@ -343,3 +160,223 @@ The input indicator does not update after pressing the **Reset** button.
 
 ---
 
+# [BUG-008] ℹ️ Offscreen Text Showing in Rewards Menu
+
+**Unique Key:** BUG-008  
+**Reported On:** 2025-04-01  
+**Reporter:** Tadjh Brooks  
+**Status:** Open  
+**Priority:** Low  
+**Severity:** Minor  
+**Environment:**
+
+- **OS:** Windows 11
+- **Device:** Desktop
+- **Processor:** Intel(R) Core(TM) i9-9920X CPU @ 3.50GHz
+- **RAM:** 64.0 GB (63.7 GB usable)
+- **Application Version:** Insignia Alpha Test
+
+## Description
+
+The text "Keyboard Configuration Saved" is partially visible when the Feater Fox **Rewards** menu is open. This text should not be visible in the **Rewards** menu.
+
+## Steps to Reproduce
+
+1. Open the application.
+2. Approach the Feater Fox.
+3. Interact with the Feater Fox to open the **Rewards** menu.
+4. Observe that the text "Keyboard Configuration Saved" is partially visible at the top of the screen.
+5. Observe that the text "Keyboard Configuration Saved" is not visible when the menu is closed again.
+
+## Expected Behavior
+
+Offscreen text should not be visible when the **Rewards** menu is open.
+
+## Actual Behavior
+
+Offscreen text is visible when the **Rewards** menu is open.
+
+## Screenshot / Video
+
+![Screenshot of BUG-008](screenshots/BUG-008.png)
+
+---
+
+# [BUG-009] ℹ️ Incorrect Remapped Input for Some Elevators
+
+**Unique Key:** BUG-009  
+**Reported On:** 2025-03-27  
+**Reporter:** Tadjh Brooks  
+**Status:** Open  
+**Priority:** Low  
+**Severity:** Minor  
+**Environment:**
+
+- **OS:** Windows 11
+- **Device:** Desktop
+- **Processor:** Intel(R) Core(TM) i9-9920X CPU @ 3.50GHz
+- **RAM:** 64.0 GB (63.7 GB usable)
+- **Application Version:** Insignia Alpha v0.0.692
+
+## Description
+
+Some elevators show the wrong button indicator.
+
+## Steps to Reproduce
+
+1. Open the application.
+2. Select the Feather Fox Test.
+3. Go to the first elevator in the Feather Fox Test.
+4. Go down the elevator and observe that the button indicator is displayed as <kbd>↑</kbd> instead of <kbd>S</kbd>.
+
+## Expected Behavior
+
+The input for the Elevetor should display the key for the `Special` function which defaults <kbd>↑</kbd>.
+
+## Actual Behavior
+
+The input for the Elevetor is displayed as <kbd>↑</kbd>.
+
+## Screenshots / Videos
+
+![Screenshot of BUG-009](screenshots/BUG-009.png)
+[Video of BUG-009](videos/BUG-009.mp4)
+
+## Additional Information
+
+- The bug happens with default key bindings and remapped key bindings.
+
+---
+
+# [BUG-010] ⚠️ Ghost Step Animation on Slopes
+
+**Unique Key:** BUG-010  
+**Reported On:** 2025-04-01  
+**Reporter:** Tadjh Brooks  
+**Status:** Open  
+**Priority:** Medium  
+**Severity:** Minor  
+**Environment:**
+
+- **OS:** Windows 11
+- **Device:** Desktop
+- **Processor:** Intel(R) Core(TM) i9-9920X CPU @ 3.50GHz
+- **RAM:** 64.0 GB (63.7 GB usable)
+- **Application Version:** Insignia Alpha v0.0.692
+
+## Description
+
+When walking up a slope and holding the attack button, the character will rapidly appear and disappear until exiting the slope.
+
+## Steps to Reproduce
+
+1. Open the application.
+2. Find a slope.
+3. Start the walk animation while going up the slope, then press and hold the attack button.
+4. Observe that the character will rapidly appear and disappear until exiting the slope.
+
+## Expected Behavior
+
+The player should either walk up the slope or attack while on a slope, not both.
+
+## Actual Behavior
+
+The player does neither and instead rapidly appears and disappears, causing the animation to cancel.
+
+## Screentshots / Videos
+
+[Video of BUG-010](videos/BUG-010.mp4)
+
+## Additional Information
+
+- The player will lunge upon reaching the top of the slope, so this bug may be related to the lunge animation being triggered while on a slope.
+
+---
+
+# [BUG-011] 🐛 Menu Soft-lock on Roll.
+
+**Unique Key:** BUG-011  
+**Reported On:** 2025-04-01  
+**Reporter:** Tadjh Brooks  
+**Status:** Open  
+**Priority:** Medium  
+**Severity:** Major  
+**Environment:**
+
+- **OS:** Windows 11
+- **Device:** Desktop
+- **Processor:** Intel(R) Core(TM) i9-9920X CPU @ 3.50GHz
+- **RAM:** 64.0 GB (63.7 GB usable)
+- **Application Version:** Insignia Alpha v0.0.692
+
+## Description
+
+While cursor is on any of the remap functions, it's possible to exit the menu with the `Roll` function while the menu remains visible. This may lead to confusion as the menu does not close as expected and the player may think the game is frozen. The only way to remove the menu is to navigate thru the menu screens in your mind until you return back to the Keyboard Settings menu and regain control of the menu.
+
+## Steps to Reproduce
+
+1. Open the application.
+2. Press the **Menu** button.
+3. From the menu, select **Settings**.
+4. In the Settings panel, select **Controls**.
+5. In the **Controls** panel, Select **Keyboard**.
+6. Move the cursor to any of the remap functions.
+7. Press the `Roll` button.
+8. Observe that the menu remains open and the cursor disappears.
+9. Observe that the player is now able to perform attacks and rolls in the background while the menu is still visible.
+
+## Expected Behavior
+
+The menu should close when the `Roll` button is pressed while the cursor is on any of the remap functions.
+
+## Actual Behavior
+
+The menu remains open and the cursor disappears, allowing the player to perform attacks and rolls in the background while the menu is still visible.
+
+## Screentshots / Videos
+
+[Video of BUG-011](videos/BUG-011.mp4)
+
+---
+
+# [BUG-012] 🐛 Menu Soft-lock on Roll While Hovering Done.
+
+**Unique Key:** BUG-012  
+**Reported On:** 2025-04-01  
+**Reporter:** Tadjh Brooks  
+**Status:** Open  
+**Priority:** Medium  
+**Severity:** Major  
+**Environment:**
+
+- **OS:** Windows 11
+- **Device:** Desktop
+- **Processor:** Intel(R) Core(TM) i9-9920X CPU @ 3.50GHz
+- **RAM:** 64.0 GB (63.7 GB usable)
+- **Application Version:** Insignia Alpha v0.0.692
+
+## Description
+
+It's possible to make the **Controls** menu soft-lock by pressing the `Roll` button while hovering over the `Done` button in **Keyboard** settings. If you exit **Keyboard** with the `Roll` button, then close the remaining menu with either `Roll` or `Return`, the **Controls** menu will remain open and the cursor will disappear. The only way to remove the menu is to navigate thru the menu screens in the background until you return back to the Keyboard Settings menu and regain control of the menu.
+
+## Steps to Reproduce
+
+1. Open the application.
+2. Press the **Menu** button.
+3. From the menu, select **Settings**.
+4. In the Settings panel, select **Controls**.
+5. In the **Controls** panel, Select **Keyboard**.
+6. Hover over the `Done` button.
+7. Press the `Roll` button.
+8. Press either `Roll` or `Return` button a final time to close the main menu.
+9. Observe that the **Controls** menu remains open and the cursor disappears.
+
+## Expected Behavior
+
+Pressing the `Roll` button or `Return` button should close all menus a sep at a time.
+
+## Actual Behavior
+
+Pressing the `Roll` button or `Return` button while hovering over the `Done` button in **Keyboard** settings will cause the **Controls** menu to soft-lock and remain open, no matter what you press next: `Roll` or `Return`.
+
+## Screenshots / Videos
