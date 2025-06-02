@@ -333,3 +333,5 @@ Pressing the `Roll` button or `Return` button should close all menus a sep at a 
 Pressing the `Roll` button or `Return` button while hovering over the `Done` button in **Keyboard** settings will cause the **Controls** menu to soft-lock and remain open, no matter what you press next: `Roll` or `Return`.
 
 ## Screenshots / Videos
+
+[Video of BUG-012](videos/BUG-012.mp4)
